@@ -1,0 +1,63 @@
+body {
+    background: url("https://i1.wp.com/www.outrosquinhentos.com/wp-content/uploads/2018/10/paris6.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  * {
+    text-align: center;
+    font-size: black;
+  }
+  input#busca-prato {
+    width: 450px;
+    height: 30px;
+  }
+  li {
+    display: flex;
+    text-align: center !important;
+    border: 10px;
+    padding: 10px;
+    font-size: 20px;
+    align-content: stretch;
+    justify-content: space-evenly;
+  }
+  span {
+    display: grid;
+    text-align: center !important;
+    border: 10px;
+    padding: 10px;
+    background-color: rgb(180, 214, 180);
+    grid-template-rows:
+      "li"
+      "p";
+  }
+  #bt {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+  }
+  #bt:hover {
+    background-color: green;
+  }
+  
+  #adicionar {
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    grid-template-areas: "nome-prato ingredientes-prato preco bt";
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    top: 90%;
+  }
+  #adicionar input {
+    font-size: 16px;
+    border: 2px solid black;
+    width: auto;
+    background-color: honeydew;
+  }
+  
