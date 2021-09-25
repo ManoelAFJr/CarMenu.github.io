@@ -7,12 +7,12 @@ const btButton = document.querySelector("#bt");
 const pratos = [
   {
     nome: "Lasanha",
-    ingredientes: ["Frango", "Muçarela", "Presunto", "Requeijão"],
+    ingredientes: [" Frango", " Muçarela", " Presunto", " Requeijão"],
     Preço: "R$ " + 35 + ".00"
   },
   {
     nome: "Pizza",
-    ingredientes: ["Carne de Sol", "Fritas", "Nata"],
+    ingredientes: [" Carne de Sol", " Fritas", " Nata"],
     Preço: "R$ " + 35 + ".00"
   }
 ];
@@ -21,12 +21,12 @@ const getDados = () =>
   JSON.parse(localStorage.getItem("cardapio")) ?? [
     {
       nome: "Lasanha",
-      ingredientes: ["Frango", "Muçarela", "Presunto", "Requeijão"],
+      ingredientes: [" Frango", " Muçarela", " Presunto", " Requeijão"],
       Preço: "R$ " + 35 + ".00"
     },
     {
       nome: "Pizza",
-      ingredientes: ["Carne de Sol", "Fritas", "Nata"],
+      ingredientes: [" Carne de Sol", " Fritas", " Nata"],
       Preço: "R$ " + 35 + ".00"
     }
   ];
